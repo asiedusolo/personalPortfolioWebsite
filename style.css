@@ -109,18 +109,14 @@ ul li a{
 .skills > div{
     display: flex;
     flex-wrap: wrap;
-    align-content: space-between;
-    height: 100px;
+    justify-content: space-between;
+    /* height: 100px; */
 }
-.skills > div .btn{
-    align-self: center;
+.skills > div p{
+   width: 120px; 
+   /* border: 1px solid black; */
 }
-.btn{
-    padding: 10px 25px;
-    border: none;
-    background: #eee;
-    color: #000;
-    cursor: pointer;
-    border-radius: 5px;
-    margin: 20px;
+.skills > div p:nth-child(1){
+    width: 200px;
+    /* border: 1px solid violet; */
 }
